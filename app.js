@@ -3,7 +3,7 @@ window.addEventListener('scroll', () => {
     const header = document.querySelector('header');
     if (window.scrollY > 50) {
         header.style.padding = '10px 5%';
-        header.style.background = 'rgba(5, 5, 8, 0.9)';
+        // header.style.background = 'rgba(5, 5, 8, 0.9)';
     } else {
         header.style.padding = '20px 5%';
         header.style.background = 'transparent';
