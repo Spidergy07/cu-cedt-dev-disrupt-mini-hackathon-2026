@@ -42,14 +42,21 @@ body {
 
 /* Header */
 
-header {
+.site-header {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
     padding: 20px 5%;
 }
-
+.pro-header {
+    padding: 20px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    background: #ffffff;
+}
 .glass-nav {
     display: flex;
     justify-content: space-between;
