@@ -442,3 +442,13 @@ footer {
     }
 
 }
+
+.pro-breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 10px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
